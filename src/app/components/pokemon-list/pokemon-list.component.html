@@ -1,5 +1,8 @@
 <div class="row m-3 justify-content-center">
-    <div class="card m-2 pokemonButtons" *ngFor="let item of pokemons; let i = index" [ngClass]="pokemonSelectedIndex === i ? 'pokemonActive' : '' " style="width: 14rem;" (click)=sendPokemon(item,i)>
+    <div class="card m-2" style="width: 14rem;">
+        <h3>Others</h3>
+    </div>
+    <div class="card m-2 pokemonButtons" *ngFor="let item of pokemons; let i = index" [ngClass]="pokemonSelectedIndex === i  ? 'pokemonActive' : '' " style="width: 14rem;" (click)=sendPokemon(item,i)>
         <app-pokemon [pokemon]="item"></app-pokemon>
     </div>
 </div>

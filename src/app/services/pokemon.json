@@ -1,5 +1,4 @@
-[
-    {
+[{
         "name": "Charizard",
         "num": "006",
         "level": "70",
@@ -7,7 +6,8 @@
         "hability": "Flames",
         "height": "1.7",
         "weight": "90.5",
-        "image": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/95/latest/20160817212623/Charizard.png/1200px-Charizard.png"
+        "image": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/9/95/latest/20160817212623/Charizard.png/1200px-Charizard.png",
+        "icon": "https://toppng.com/public/uploads/preview/69kib-375x360-fire-pokemon-fire-energy-11562907671ukkqpconnm.png"
     },
     {
         "name": "Pikachu",
@@ -17,8 +17,9 @@
         "hability": "Static electricity",
         "height": "0.4",
         "weight": "6",
-        "image": "https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg"
-    },  
+        "image": "https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg",
+        "icon": "https://thingd-media-ec3.thefancy.com/default/419670840188083531_c12b9a17467f.png"
+    },
     {
         "name": "Bulbasaur",
         "num": "001",
@@ -27,7 +28,8 @@
         "hability": "Thickness",
         "height": "0.7",
         "weight": "6.9",
-        "image": "https://http2.mlstatic.com/cortante-de-galleta-bulbasaur-pokemon-go-D_NQ_NP_821505-MLA25027151729_082016-F.jpg"
+        "image": "https://http2.mlstatic.com/cortante-de-galleta-bulbasaur-pokemon-go-D_NQ_NP_821505-MLA25027151729_082016-F.jpg",
+        "icon": "https://i.pinimg.com/originals/4f/fa/1a/4ffa1a4357ffa15bfba324007c2405fb.png"
     },
     {
         "name": "Mewtwo",
@@ -37,7 +39,8 @@
         "hability": "Pressure",
         "height": "2",
         "weight": "122",
-        "image": "https://projectpokemon.org/home/uploads/monthly_2018_03/large.Mewtwo-Pokemon-X-and-Y.jpg.38d200fb3aa33f43dc6a2eea23ec2912.jpg"
+        "image": "https://projectpokemon.org/home/uploads/monthly_2018_03/large.Mewtwo-Pokemon-X-and-Y.jpg.38d200fb3aa33f43dc6a2eea23ec2912.jpg",
+        "icon": "https://66.media.tumblr.com/d7d0ded5ecca28d4df4762a046da5df4/tumblr_p0vhknlkpM1sx8kfno1_400.png"
     },
     {
         "name": "Psyduck",
@@ -47,6 +50,7 @@
         "hability": "Acclimatization",
         "height": "0.8",
         "weight": "19.6",
-        "image": "https://i.pinimg.com/originals/be/17/84/be178438609dcee512d5baa137578b7d.jpg"
+        "image": "https://i.pinimg.com/originals/be/17/84/be178438609dcee512d5baa137578b7d.jpg",
+        "icon": "https://i.pinimg.com/originals/c3/61/39/c3613977779d28d1da20e3d814ac1ce0.png"
     }
 ]

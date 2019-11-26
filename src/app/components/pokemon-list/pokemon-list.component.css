@@ -10,3 +10,7 @@
 .pokemonActive {
     opacity: 1.0;
 }
+
+.card {
+    border: none;
+}

@@ -13,13 +13,15 @@ export class PokemonListComponent implements OnInit {
     
   constructor(public pokedexService: PokedexService) { 
     this.pokemons = this.pokedexService.getPokemons();
+    this.pokemonSelectedIndex = 0;
   }
   ngOnInit() {
+    
   }
 
   sendPokemon(pokemon: Pokemon, idx?: number){
     this.pokedexService.sendPokemon(pokemon);
     this.pokedexService.clearPokemon();
-     this.pokemonSelectedIndex = idx;
+    this.pokemonSelectedIndex = idx;
   }
 }

@@ -7,4 +7,5 @@ export class Pokemon {
     height: string;
     weight: string;
     image:string;
+    icon: string;
 }
