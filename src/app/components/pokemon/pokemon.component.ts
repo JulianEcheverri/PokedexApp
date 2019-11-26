@@ -10,7 +10,7 @@ import { Subscription } from 'rxjs';
 })
 export class PokemonComponent implements OnInit { 
   @Input() pokemon: Pokemon;
-  @Input() desdeListado: false;
+  @Input() fromList: false;
 
 
   constructor() { 

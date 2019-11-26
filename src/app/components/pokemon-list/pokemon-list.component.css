@@ -1,0 +1,12 @@
+.pokemonButtons {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.pokemonButtons:hover {
+    opacity: 1.0;
+}
+
+.pokemonActive {
+    opacity: 1.0;
+}

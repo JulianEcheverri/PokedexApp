@@ -1,13 +1,11 @@
-<div class="card mb-3">
+<div class="card mb-5">
     <div class="row no-gutters">
-        <div class="col-md-6">
-            <app-pokemon [desdeListado]=true [pokemon]="pokemon"></app-pokemon>
+        <div class="col-md-7" style="max-height:644px;">
+            <app-pokemon [fromList]=true [pokemon]="pokemon"></app-pokemon>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-5">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <app-pokemon-detail [pokemon]="pokemon"></app-pokemon-detail>
             </div>
         </div>
     </div>

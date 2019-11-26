@@ -1,4 +1,4 @@
-<div class="card-header text-center" *ngIf="desdeListado">
+<div class="card-header text-center" *ngIf="fromList">
     {{pokemon.name}}
 </div>
-<img [src]="pokemon.image" class="card-img" alt="..." style="width: 100%;">
+<img [src]="pokemon.image" class="card-img pokemonSize" [alt]="pokemon.name">
