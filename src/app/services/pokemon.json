@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Charizard",
+        "num": "006",
+        "level": "70",
+        "type": "Fire",
+        "hability": "Flames",
+        "height": "1.7",
+        "weight": "90.5"
+    },
+    {
+        "name": "Pikachu",
+        "num": "025",
+        "level": "40",
+        "type": "Electric",
+        "hability": "Static electricity",
+        "height": "0.4",
+        "weight": "6"
+    },
+    {
+        "name": "Bulbasaur",
+        "num": "001",
+        "level": "30",
+        "type": "Plant",
+        "hability": "Thickness",
+        "height": "0.7",
+        "weight": "6.9"
+    }
+]
