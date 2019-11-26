@@ -1,5 +1,5 @@
 <div class="row m-3 justify-content-center">
-    <div class="card m-2" *ngFor="let item of pokemons" style="width: 14rem;">
-        <img [src]="item.image" class="card-img-top" [alt]="item.title">
+    <div class="card m-2" *ngFor="let item of pokemons" style="width: 14rem;" (click)=sendPokemon(item)>
+        <app-pokemon [pokemon]="item"></app-pokemon>
     </div>
 </div>

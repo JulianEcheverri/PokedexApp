@@ -1,4 +1,4 @@
-<div class="card-header text-center">
-    Featured
+<div class="card-header text-center" *ngIf="desdeListado">
+    {{pokemon.name}}
 </div>
-<img src="https://i.pinimg.com/originals/be/17/84/be178438609dcee512d5baa137578b7d.jpg" class="card-img" alt="..." style="width: 100%;">
+<img [src]="pokemon.image" class="card-img" alt="..." style="width: 100%;">
