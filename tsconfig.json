@@ -17,7 +17,9 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    // I had to configure the TypeScript compiler to enable importing local JSON files
+    "resolveJsonModule": true,
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

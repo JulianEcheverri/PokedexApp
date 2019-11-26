@@ -1,10 +1,10 @@
 export class Pokemon {
     name: string;
-    num: number;
-    level: number;
+    num: string;
+    level: string;
     type: string;
     hability: string;
-    height: number;
-    weight: number;
+    height: string;
+    weight: string;
     image:string;
 }
