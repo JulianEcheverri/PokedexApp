@@ -1,8 +1,12 @@
 <div class="row m-3 justify-content-center align-items-center">
-    <div class="card m-2" style="width: 10rem;">
+    <div class="card m-2 otherTitle">
         <h3 class="text-center">Others</h3>
     </div>
-    <div class="card m-2 pokemonButtons" *ngFor="let item of pokemons; let i = index" [ngClass]="pokemonSelectedIndex === i  ? 'pokemonActive' : '' " style="width: 14rem;" (click)=sendPokemon(item,i)>
+    <!-- 
+        Add the next function call in the 'pokemonButtons' <div> tag for button functionality
+        (click)=sendPokemon(item,i)
+    -->
+    <div class="card m-2 pokemonButtons" *ngFor="let item of pokemons; let i = index" [ngClass]="pokemonSelectedIndex === i  ? 'pokemonActive' : '' " style="width: 14rem;">
         <app-pokemon [pokemon]="item"></app-pokemon>
     </div>
 </div>
