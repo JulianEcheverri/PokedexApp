@@ -13,13 +13,15 @@ export class HomeComponent implements OnInit, OnDestroy {
   pokemon: Pokemon;
 
   constructor(public pokedexService: PokedexService) {
+    // set the firts pokemon by default
     this.pokemon = this.pokedexService.getPokemons()[0];
   }
 
   ngOnInit() {
+    // subscription from get the pokemon sent by clicking
     this.subscription = this.pokedexService.getPokemon().subscribe(item => {
       if (item) this.pokemon = item;
-    });   
+    });
   }
 
   ngOnDestroy() {
