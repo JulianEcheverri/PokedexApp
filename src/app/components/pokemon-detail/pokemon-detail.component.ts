@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, OnChanges } from '@angular/core';
 import { Pokemon } from 'src/app/models/pokemon';
 
 @Component({
@@ -6,12 +6,21 @@ import { Pokemon } from 'src/app/models/pokemon';
   templateUrl: './pokemon-detail.component.html',
   styleUrls: ['./pokemon-detail.component.css']
 })
-export class PokemonDetailComponent implements OnInit {
+export class PokemonDetailComponent implements OnInit, OnChanges {
   @Input() pokemon: Pokemon;
-  
-  constructor() { }
+  pokemonDetail: Pokemon;
+  constructor() {
+   }
 
   ngOnInit() {
+    
+  }
+
+  ngOnChanges(){
+    this.pokemonDetail = {...this.pokemon};
+    delete this.pokemonDetail.icon;
+    delete this.pokemonDetail.image;
+    delete this.pokemonDetail.name;
   }
 
 }
