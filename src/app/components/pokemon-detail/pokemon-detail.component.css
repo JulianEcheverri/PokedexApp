@@ -8,12 +8,18 @@
     float: right
 }
 
+.keyName {
+    white-space: nowrap;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
 
-/* for a normally-large screen size */
+
+/* for desktop */
 
 @media only screen and (min-width: 768px) {
     .tag {
-        float: none
+        float: none;
     }
     .value {
         float: none

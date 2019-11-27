@@ -1,9 +1,9 @@
-<div class="row">
+<div class="row p-5 text-center">
     <div class="col-md-6 mb-5" *ngFor="let item of pokemonDetail | keyvalue">
         <div class="tag">
-            <span>{{item.key | uppercase}}</span>
+            <strong class="keyName"><span>{{item.key | uppercase}}</span></strong>
         </div>
-        <div class="value">
+        <div class="value mt-1">
             <span> {{item.value}}</span>
         </div>
     </div>

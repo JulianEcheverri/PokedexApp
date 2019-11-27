@@ -1,6 +1,6 @@
-<div class="card-header text-center" *ngIf="fromList">
+<div class="card-header text-center mb-1" *ngIf="fromList">
     <h2>
         <img [src]="pokemon.icon" style="height: 33px;"> {{pokemon.name | uppercase}}
     </h2>
 </div>
-<img [src]="pokemon.image" class="card-img pokemonSize" [alt]="pokemon.name">
+<img [src]="pokemon.image" class="card-img pokemonSize mb-1" [alt]="pokemon.name">

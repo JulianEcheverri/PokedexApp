@@ -1,3 +1,18 @@
 .card {
     border: 0
 }
+
+.cardDetail {
+    border-style: ridge;
+    border-radius: 30px;
+}
+
+
+/* for desktop */
+
+@media only screen and (min-width: 768px) {
+    .cardDetail {
+        margin-top: auto!important;
+        margin-bottom: auto!important;
+    }
+}
